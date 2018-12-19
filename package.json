@@ -1,0 +1,25 @@
+{
+  "name": "practice_unit_3",
+  "version": "1.0.0",
+  "description": "Create a full RESTful API using the Facebook database structure you created in the previous assignment, including an Express app and a Postgres database. This app should have the following routes, with corresponding SQL statements:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaiSonP/practice_unit_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaiSonP/practice_unit_3/issues"
+  },
+  "homepage": "https://github.com/ThaiSonP/practice_unit_3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg-promise": "^8.5.4",
+    "save": "^2.3.3"
+  }
+}

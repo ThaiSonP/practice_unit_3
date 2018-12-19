@@ -2,7 +2,7 @@
 
 Create a full RESTful API using the Facebook database structure you created in the previous assignment, including an Express app and a Postgres database. This app should have the following routes, with corresponding SQL statements:
 
-- **Users**
+- **Users** 
   - GET `/users` - Get all users.
   - GET `/users/:id` - Get single user.
   - POST `/users` - Add single user.
@@ -15,12 +15,12 @@ Create a full RESTful API using the Facebook database structure you created in t
   - DELETE `/posts/:id` - Delete single post.
 - **Likes**
   - GET `/likes` - Get all likes.
-  - GET `/likes/posts/:id` - Get all likes for a single post.
+  - GET `/likes/posts/:id` - Get all likes for a single post.[?]
   - POST `/likes` - Add single like.
   - DELETE `/likes/:id` - Delete single like.
 - **Comments**
   - GET `/comments` - Get all comments.
-  - GET `/comments/posts/:id` - Get all comments for a single post.
+  - GET `/comments/posts/:id` - Get all comments for a single post. [?]
   - POST `/comments` - Add single comment.
   - PATCH `/comments/:id` - Edit single comment.
   - DELETE `/comments/:id` - Delete single comment.
